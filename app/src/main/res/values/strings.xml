@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="false">UpCortex</string>
+
+    <!-- Button Texts-->
+    <string name="button_next">İleri</string>
+    <string name="button_skip">Atla</string>
+    <string name="button_login">Giriş Yap</string>
+    <string name="button_register">Üye Ol</string>
+    <string name="button_yes">Evet</string>
+    <string name="button_no">Hayır</string>
+    <string name="button_back_to_start">Başa Dön</string>
+    <string name="button_support">Bizimle İletişime Geçin</string>
+    <string name="button_back" translatable="false">&lt;</string>
+    <string name="button_confirm">Onayla</string>
+    <string name="button_save_pass">Şifreni Güncelle</string>
+    <string name="button_back_to_login">Giriş Ekranına Dön</string>
+    <string name="button_space">Boşluk</string>
+
+</resources>

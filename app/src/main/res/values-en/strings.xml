@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Button Texts-->
+    <string name="button_next">Next</string>
+    <string name="button_skip">Skip</string>
+    <string name="button_login">Login</string>
+    <string name="button_register">Register</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="button_back_to_start">Back to Start</string>
+    <string name="button_support">Contact Us</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="button_save_pass">Save Password</string>
+    <string name="button_back_to_login">Back to Login</string>
+    <string name="button_space">Space</string>
+</resources>

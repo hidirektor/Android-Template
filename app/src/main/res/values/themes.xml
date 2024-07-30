@@ -1,0 +1,45 @@
+<resources>
+    <style name="Theme.UpCortex" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryOnTop</item>
+        <item name="colorOnPrimary">@color/primaryOnBottom</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryOnTop</item>
+        <item name="colorOnSecondary">@color/secondaryOnBottom</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/secondaryColor</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.RemoveSplashScreenTheme" parent="@style/Theme.UpCortex">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="MyCardView" parent="Theme.MaterialComponents.Light">
+        <item name="shapeAppearance">@style/ShapeAppearance.MyCardView</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="ShapeAppearance.MyCardView" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeBottomLeft">16dp</item>
+        <item name="cornerSizeBottomRight">16dp</item>
+    </style>
+
+    <style name="MyCardViewOverlay">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeBottomLeft">16dp</item>
+        <item name="cornerSizeBottomRight">16dp</item>
+    </style>
+</resources>
